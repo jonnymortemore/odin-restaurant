@@ -57,10 +57,22 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content:flex-end;
+    
     background: url("cat.jpg");
     color: antiquewhite;
     padding-bottom: 100px;
+}
+
+.home {
+  justify-content:flex-end;
+}
+
+.menu {
+  justify-content: flex-start;
+}
+
+.about {
+  justify-content: center;
 }
 
 nav {
@@ -85,4 +97,13 @@ button {
 button:hover {
     background-color: black;
     color: antiquewhite;
+}
+
+.text {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  width: 50%;
+  border-radius: 10px;
+  margin: 20px;
+  text-align: center;
 }
